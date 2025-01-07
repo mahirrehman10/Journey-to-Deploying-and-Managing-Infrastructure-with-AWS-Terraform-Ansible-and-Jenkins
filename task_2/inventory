@@ -1,0 +1,6 @@
+[app]
+10.100.2.125 ansible_user=ubuntu ansible_ssh_private_key_file="/home/ubuntu/i.pem"
+[jenkins]
+10.100.2.218 ansible_user=ubuntu ansible_ssh_private_key_file="/home/ubuntu/i.pem"
+~    
+#https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-docker-on-ubuntu-20-04 for referring docker installtion using ansible                                                                                

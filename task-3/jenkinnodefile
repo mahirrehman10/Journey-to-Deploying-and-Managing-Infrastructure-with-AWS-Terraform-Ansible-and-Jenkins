@@ -1,0 +1,4 @@
+cd vote
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 879576034845.dkr.ecr.us-east-1.amazonaws.com
+docker tag taskupgarde:latest 879576034845.dkr.ecr.us-east-1.amazonaws.com/taskupgarde:voteapp
+docker push docker tag taskupgarde:latest 879576034845.dkr.ecr.us-east-1.amazonaws.com/taskupgarde:voteapp
